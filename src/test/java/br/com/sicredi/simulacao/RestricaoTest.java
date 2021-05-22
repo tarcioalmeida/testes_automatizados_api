@@ -44,7 +44,7 @@ public class RestricaoTest extends ConfiguracoesAPI{
         //E defino como parâmetro um CPF que não possui restrições
         given()
                 .contentType(ContentType.JSON)
-                .pathParam("cpf", "17822386034").
+                .pathParam("cpf", cpfParametro).
 
         //Quando envio a solicitação GET com o CPF parametrizado
         when()
