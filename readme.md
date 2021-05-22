@@ -1,8 +1,10 @@
 # Documentação de testes funcionais nas API's fornecidas
 
-## Como executar os testes
+## Executar os testes
 
 ```bash
+mvn clean spring-boot:run
+
 mvn test
 ```
 
