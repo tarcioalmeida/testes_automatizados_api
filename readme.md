@@ -1,4 +1,6 @@
-# Documentação de testes funcionais nas API's fornecidas
+# Desafio de teste automatizado em API Rest
+
+Para mais informações sobre o desafio técnico, acessar [readme_desafio.md](readme_desafio.md)
 
 ## Executar os testes
 
@@ -9,6 +11,9 @@ mvn test
 ```
 
 Obs: No cenário 4, a API está retornando 400, não 409, como menciona a documentação, portanto este teste em específico não passa.
+
+
+# Documentação de testes funcionais nas API's fornecidas
 
 ## Restrições
 
